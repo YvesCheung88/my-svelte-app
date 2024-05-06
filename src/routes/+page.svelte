@@ -74,6 +74,28 @@
 		</div>
 	</div>
 </div>
+<div class="section dark">
+	<div class="boxed text-center">
+		<h2>Contactez-moi</h2>
+		<div class="flex space-between">
+			<div class="w32 contact">
+				<span class="material-icons icon">mail </span>
+				<span class="label">E-mail </span>
+				<span class="value">test </span>
+			</div>
+			<div class="w32 contact">
+				<span class="material-icons icon">mail </span>
+				<span class="label">E-mail </span>
+				<span class="value">test </span>
+			</div>
+			<div class="w32 contact">
+				<span class="material-icons icon">mail </span>
+				<span class="label">E-mail </span>
+				<span class="value">test </span>
+			</div>
+		</div>
+	</div>
+</div>
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -198,5 +220,25 @@
 	}
 	.realisation:hover img {
 		filter: brightness(60%);
+	}
+	.icon {
+		display: block;
+		font-size: 40px;
+	}
+	.label {
+		display: block;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin: 10px 0;
+		font-size: 1.5rem;
+	}
+	.value {
+		display: block;
+		font-size: 1.5rem;
+	}
+	.contact {
+		border: 2px dashed #fff;
+		border-radius: 15px;
+		padding: 30px;
 	}
 </style>
